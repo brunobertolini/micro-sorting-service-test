@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "0.1.0",
+  "description": "Sorting Service",
+  "main": "index.js",
+  "author": "Bruno Bertolini <dev@brunobertolini.com>",
+  "license": "MIT",
+	"scripts": {
+    "lint": "xo",
+    "reports": "nyc report --reporter=html",
+    "coverage": "./node_modules/.bin/nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls",
+    "pretest": "yarn run lint",
+    "test": "NODE_PATH=. nyc ava",
+    "commitmsg": "validate-commit-msg",
+    "release": "standard-version --no-verify",
+    "dev": "micro-dev",
+    "prestart": "yarn install --production",
+    "start": "micro"
+	},
+  "dependencies": {
+    "micro": "^9.1.4"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "micro-dev": "^2.2.0",
+    "nyc": "^11.4.1",
+    "standard-version": "^4.3.0",
+    "validate-commit-msg": "^2.14.0",
+    "xo": "^0.20.3"
+  }
+}
