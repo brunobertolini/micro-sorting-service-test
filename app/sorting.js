@@ -16,10 +16,9 @@ const sortBy = props => {
 const sorting = (data, props) => {
 	if (!props) {
 		throw new Error('Err')
-	} else if (props.length === 0) {
-		return []
-	} else {
-		return data.sort(sortBy(props))
 	}
+
+	return props.length === 0 ? [] : data.sort(sortBy(props))
 }
+
 module.exports = sorting
