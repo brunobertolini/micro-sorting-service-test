@@ -3,5 +3,5 @@ const data = require('./data/books')
 
 const sorting = require('./app/sorting')
 
-module.exports = (req, res) =>
+module.exports = () =>
 	sorting(data, config)

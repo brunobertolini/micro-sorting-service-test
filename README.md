@@ -1,17 +1,20 @@
-# Insper Full API
+# Sorting Service - Microservice
 
 Sorting Service
 
 ## Run
+```bash
+# to install dependencies
+yarn 
 
-First, create .env file and set env vars based on .env.example
+# for dev mode with live reload
+yarn dev 
 
-1. `yarn`
-2. `yarn dev` and go drink a coffee :)
+# or this to produciton mode
+yarn start
+```
 
-## Produtcion 
-
-Just `yarn start`!
+Open [http://localhost:3000](http://localhost:3000)
 
 ## Tests
 
