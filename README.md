@@ -1,4 +1,4 @@
-# Sorting Service - Microservice
+# Sorting Service - Microservice [![Build Status](https://travis-ci.org/brunobertolini/micro-sorting-service-test.svg?branch=master)](https://travis-ci.org/brunobertolini/micro-sorting-service-test) [![codecov](https://codecov.io/gh/brunobertolini/micro-sorting-service-test/badge.svg?branch=master)](https://codecov.io/gh/brunobertolini/micro-sorting-service-test?branch=master)
 
 Sorting Service
 
