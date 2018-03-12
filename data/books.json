@@ -2,20 +2,20 @@
 	"id": 1,
 	"title": "Clean Code: A Handbook of Agile Software Craftsmanship",
 	"author": "Robert C Martin",
-	"editionYear": 2008
+	"edition": 2008
 }, {
 	"id": 2,
 	"title": "The Browser Hacker's Handbook",
 	"author": "Wade Alcorn, Christian Frichot, Michele Orru",
-	"editionYear": 2014
+	"edition": 2014
 }, {
 	"id": 3,
 	"title": "Learning GraphQL",
 	"author": "Eve Porcello e Alex Banks",
-	"editionYear": 2018
+	"edition": 2018
 }, {
 	"id": 4,
 	"title": "Steve Jobs",
 	"author": "Walter Isaacson",
-	"editionYear": 2011
+	"edition": 2011
 }]
