@@ -20,3 +20,7 @@ Open [http://localhost:3000](http://localhost:3000)
 
 1. `yarn`
 2. `yarn test`
+
+# Config
+
+Use `config/sorting.json` to change sort data
